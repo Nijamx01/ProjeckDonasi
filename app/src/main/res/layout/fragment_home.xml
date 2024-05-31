@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgr"
+    android:padding="30dp"
+    tools:context=".HomeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/fotohome"
+            android:layout_marginTop="80dp"
+        />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="YUK DONASI DISINI"
+            android:textStyle="bold"
+            android:textSize="17dp"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="15dp"
+            android:text="ingin rezeki kamu berkah dan ingin diberikankecukupan? cobalah untukmenyisihkan sebagian harta kamu buat mereka yang membutuhkan,bantuan bisa kamu transfer ke"
+            android:textSize="13dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:text="No rekening  : 083324546
+                                                            Atas nama yayasan : PeTIK"
+            android:textSize="13dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:text="Terima kasih kepada para donatur, semoga harta yang disedekahkan menjadi wasilah bapak/ibu untuk bisa masuk surga"
+            android:textSize="13dp"
+            tools:ignore="TextSizeCheck" />
+
+
+    </LinearLayout>
+
+</FrameLayout>
